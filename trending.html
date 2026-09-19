@@ -17,14 +17,14 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
   <div class="container">
     <a class="navbar-brand" href="index.html">Frutus</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
@@ -32,20 +32,20 @@
           <a class="nav-link" href="trending.html">Trending</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="store.html" > Store
-          </a>
-          
+          <a class="nav-link" href="store.html">Store</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="premium.html" >Premium</a>
+          <a class="nav-link" href="premium.html">Premium</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html" >Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="px-1 search" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn0 px-1" type="submit">Search</button>
+      <form class="d-flex align-items-center search-wrapper" role="search">
+        <div class="input-group search-box">
+          <span class="input-group-text search-icon-box"><i class="fas fa-search"></i></span>
+          <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search">
+        </div>
       </form>
     </div>
   </div>
@@ -60,117 +60,189 @@
         </div>
         </div>
         <div class="row">
-        <div class="col-lg-3 text-center">
-          <div class="card border-0 bg-light mb-2">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="card product-card">
             <div class="card-body">
-              <img src="./Images/avocado-unsplash.jpg" class="img-fluid" alt="" >
+              <img src="./Images/avocado-unsplash.jpg" class="img-fluid" alt="Avocado">
+              <div class="product-info">
+                <h6>Avocado</h6>
+                <p class="price">$6.25</p>
+                <div class="product-actions">
+                  <button type="button" class="buy-now">Buy Now</button>
+                  <button type="button" class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
             </div>
           </div>
-          <h6>Pomegranate</h6>
-          <p>$1.25</p>
         </div>
-        <div class="col-lg-3 text-center">
-          <div class="card border-0 bg-light mb-2">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="card product-card">
             <div class="card-body">
-              <img src="./Images/Rambutan-fruit-5217349.jpg" class="img-fluid" alt="" >
+              <img src="./Images/pomgranade_original.jpg" class="img-fluid" alt="Rambutan">
+              <div class="product-info">
+                <h6>Pomegranate</h6>
+                <p class="price">$3.25</p>
+                <div class="product-actions">
+                  <button type="button" class="buy-now">Buy Now</button>
+                  <button type="button" class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
             </div>
           </div>
-          <h6>Pomegranate Fruit</h6>
-          <p>$3.25</p>
         </div>
-        <div class="col-lg-3 text-center">
-          <div class="card border-0 bg-light mb-2">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="card product-card">
             <div class="card-body">
-              <img src="./Images/cherry.jpg" class="img-fluid" alt="" >
+              <img src="./Images/cherry.jpg" class="img-fluid" alt="Cherry">
+              <div class="product-info">
+                <h6>Cherry</h6>
+                <p class="price">$5.25</p>
+                <div class="product-actions">
+                  <button type="button" class="buy-now">Buy Now</button>
+                  <button type="button" class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
             </div>
           </div>
-          <h6>Pomegranate Fruit</h6>
-          <p>$2.25</p>
         </div>
-        <div class="col-lg-3 text-center">
-          <div class="card border-0 bg-light mb-2">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="card product-card">
             <div class="card-body">
-              <img src="./Images/bigtreegroup-longan-1290167.jpg" class="img-fluid" alt="" >
+              <img src="./Images/bigtreegroup-longan-1290167.jpg" class="img-fluid" alt="Longan">
+              <div class="product-info">
+                <h6>Longan</h6>
+                <p class="price">$6.25</p>
+                <div class="product-actions">
+                  <button type="button" class="buy-now">Buy Now</button>
+                  <button type="button" class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
             </div>
           </div>
-          <h6>Pomegranate Fruit</h6>
-          <p>$2.25</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 text-center">
-          <div class="card border-0 bg-light mb-2">
-            <div class="card-body">
-              <img src="./Images/grape.jpg" class="img-fluid" alt="" >
-            </div>
-          </div>
-          <h6>Pomegranate Fruit</h6>
-          <p>$1.25</p>
-        </div>
-        <div class="col-lg-3 text-center">
-          <div class="card border-0 bg-light mb-2">
-            <div class="card-body">
-              <img src="./Images/red_apple.jpg" class="img-fluid" alt="" >
-            </div>
-          </div>
-          <h6>Pomegranate Fruit</h6>
-          <p>$3.25</p>
-        </div>
-        <div class="col-lg-3 text-center">
-          <div class="card border-0 bg-light mb-2">
-            <div class="card-body">
-              <img src="./Images/Green-apple-2121296.jpg" class="img-fluid" alt="" >
-            </div>
-          </div>
-          <h6>Pomegranate Fruit</h6>
-          <p>$2.25</p>
-        </div>
-        <div class="col-lg-3 text-center">
-          <div class="card border-0 bg-light mb-2">
-            <div class="card-body">
-              <img src="./Images/love_cherry.jpg" class="img-fluid" alt="" >
-            </div>
-          </div>
-          <h6>Pomegranate Fruit</h6>
-          <p>$2.25</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3 text-center">
-          <div class="card border-0 bg-light mb-2">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="card product-card">
             <div class="card-body">
-              <img src="./Images/strawberry1-272810.jpg" class="img-fluid" alt="" >
+              <img src="./Images/grape.jpg" class="img-fluid" alt="Grapes">
+              <div class="product-info">
+                <h6>Grapes</h6>
+                <p class="price">$3.25</p>
+                <div class="product-actions">
+                  <button type="button" class="buy-now">Buy Now</button>
+                  <button type="button" class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
             </div>
           </div>
-          <h6>Pomegranate Fruit</h6>
-          <p>$1.25</p>
         </div>
-        <div class="col-lg-3 text-center">
-          <div class="card border-0 bg-light mb-2">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="card product-card">
             <div class="card-body">
-              <img src="./Images/orange.jpg" class="img-fluid" alt="" >
+              <img src="./Images/red_apple.jpg" class="img-fluid" alt="Red Apple">
+              <div class="product-info">
+                <h6>Red Apple</h6>
+                <p class="price">$3.25</p>
+                <div class="product-actions">
+                  <button type="button" class="buy-now">Buy Now</button>
+                  <button type="button" class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
             </div>
           </div>
-          <h6>Pomegranate Fruit</h6>
-          <p>$3.25</p>
         </div>
-        <div class="col-lg-3 text-center">
-          <div class="card border-0 bg-light mb-2">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="card product-card">
             <div class="card-body">
-              <img src="./Images/mango.jpg" class="img-fluid" alt="" >
+              <img src="./Images/Green-apple-2121296.jpg" class="img-fluid" alt="Green Apple">
+              <div class="product-info">
+                <h6>Green Apple</h6>
+                <p class="price">$2.25</p>
+                <div class="product-actions">
+                  <button type="button" class="buy-now">Buy Now</button>
+                  <button type="button" class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
             </div>
           </div>
-          <h6>Pomegranate Fruit</h6>
-          <p>$2.25</p>
         </div>
-        <div class="col-lg-3 text-center">
-          <div class="card border-0 bg-light mb-2">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="card product-card">
             <div class="card-body">
-              <img src="./Images/love_cherry.jpg" class="img-fluid" alt="" >
+              <img src="./Images/pineapple2.jpg" class="img-fluid" alt="Love Cherry">
+              <div class="product-info">
+                <h6>Pineapple</h6>
+                <p class="price">$1.25</p>
+                <div class="product-actions">
+                  <button type="button" class="buy-now">Buy Now</button>
+                  <button type="button" class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
             </div>
           </div>
-          <h6>Pomegranate Fruit</h6>
-          <p>$2.25</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="card product-card">
+            <div class="card-body">
+              <img src="./Images/strawberry1-272810.jpg" class="img-fluid" alt="Strawberry">
+              <div class="product-info">
+                <h6>Strawberry</h6>
+                <p class="price">$1.25</p>
+                <div class="product-actions">
+                  <button type="button" class="buy-now">Buy Now</button>
+                  <button type="button" class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="card product-card">
+            <div class="card-body">
+              <img src="./Images/orange.jpg" class="img-fluid" alt="Orange">
+              <div class="product-info">
+                <h6>Orange</h6>
+                <p class="price">$3.25</p>
+                <div class="product-actions">
+                  <button type="button" class="buy-now">Buy Now</button>
+                  <button type="button" class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="card product-card">
+            <div class="card-body">
+              <img src="./Images/mango.jpg" class="img-fluid" alt="Mango">
+              <div class="product-info">
+                <h6>Mango</h6>
+                <p class="price">$2.25</p>
+                <div class="product-actions">
+                  <button type="button" class="buy-now">Buy Now</button>
+                  <button type="button" class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="card product-card">
+            <div class="card-body">
+              <img src="./Images/watermelon2-2409368.jpg" class="img-fluid" alt="watermelon">
+              <div class="product-info">
+                <h6>Watermelon</h6>
+                <p class="price">$2.00</p>
+                <div class="product-actions">
+                  <button type="button" class="buy-now">Buy Now</button>
+                  <button type="button" class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -182,7 +254,7 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-9 m-auto text-center">
-            <h1>Join Our Socity</h1>
+            <h1>Join Our Society</h1>
             <input type="email" placeholder="Enter Your Email">
             <button type="submit" class="btn2">Submit</button> <br>
             <br>
@@ -224,5 +296,7 @@
         <p class="text-center">© 2026 Organic Frutus | All Rights Reserved.</p>
       </div>
     </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>

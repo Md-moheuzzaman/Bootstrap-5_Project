@@ -17,14 +17,14 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
   <div class="container">
     <a class="navbar-brand" href="index.html">Frutus</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
@@ -32,20 +32,20 @@
           <a class="nav-link" href="trending.html">Trending</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="store.html" > Store
-          </a>
-          
+          <a class="nav-link" href="store.html">Store</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="premium.html" >Premium</a>
+          <a class="nav-link" href="premium.html">Premium</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html" >Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="px-1 search" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn0 px-1" type="submit">Search</button>
+      <form class="d-flex align-items-center search-wrapper" role="search">
+        <div class="input-group search-box">
+          <span class="input-group-text search-icon-box"><i class="fas fa-search"></i></span>
+          <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search">
+        </div>
       </form>
     </div>
   </div>
@@ -56,7 +56,7 @@
       <div class="row">
         <div class="col-lg-5 m-auto text-center">
           <h1>Contact Us</h1>
-          <h6 style="color: yellowgreen;">Alwways Be In Touch With Us</h6>
+          <h6 style="color: yellowgreen;">Always Be In Touch With Us</h6>
         </div>
       </div>
       <div class="row">
@@ -102,7 +102,7 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-9 m-auto text-center">
-            <h1>Join Our Socity</h1>
+            <h1>Join Our Society</h1>
             <input type="email" placeholder="Enter Your Email">
             <button type="submit" class="btn2">Submit</button> <br>
             <br>
@@ -144,5 +144,7 @@
         <p class="text-center">© 2026 Organic Frutus | All Rights Reserved.</p>
       </div>
     </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
